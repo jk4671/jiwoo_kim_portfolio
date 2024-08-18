@@ -118,7 +118,15 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
 }
 
+.btn-back-red {
+  background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
+}
+
 .block-container .btn-back-green {
+  background: linear-gradient(135deg, #adfda2 -20%, #11d3f3 120%);
+}
+
+.btn-back-green {
   background: linear-gradient(135deg, #adfda2 -20%, #11d3f3 120%);
 }
 
@@ -126,7 +134,15 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #f7971e -20%, #ffd200 120%);
 }
 
+.btn-back-yellow {
+  background: linear-gradient(135deg, #f7971e -20%, #ffd200 120%);
+}
+
 .block-container .btn-back-blue {
+  background: linear-gradient(135deg, #0061ff -20%, #60efff 120%);
+}
+
+.btn-back-blue {
   background: linear-gradient(135deg, #0061ff -20%, #60efff 120%);
 }
 
@@ -138,7 +154,15 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #e81cff -20%, #40c9ff 120%);
 }
 
+.btn-back-pink {
+  background: linear-gradient(135deg, #e81cff -20%, #40c9ff 120%);
+}
+
 .block-container .btn-back-black {
+  background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
+}
+
+.btn-back-black {
   background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
 }
 
@@ -180,4 +204,38 @@ body:has(.card[data-color="green"]:hover) {
   border: #fff;
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.github-background {
+  filter: invert(1);
+}
+
+.social-icons {
+  transition: 0.3s ease;
+  color: black;
+  border-radius: 50%;
+  padding: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons:hover {
+  background-color: white;
+  transform: scale(1.2);
+  cursor: pointer;
 }
