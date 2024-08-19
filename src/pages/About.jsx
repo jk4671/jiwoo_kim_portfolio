@@ -26,7 +26,20 @@ const About = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>A senior at Columbia University pursuing a BS in CS.</p>
+        <p>
+          I am a <span className="font-semibold">computer science</span> major
+          at <span className="font-semibold">Columbia University</span>. I’m
+          excited about leveraging technology to solve real-world problems. I've
+          developed a strong expertise in{" "}
+          <span className="font-semibold">full-stack development</span>,{" "}
+          <span className="font-semibold">artificial intelligence</span> (AI),
+          and <span className="font-semibold">human-computer interaction</span>{" "}
+          (HCI).
+        </p>
+        <p>
+          Beyond my academic and professional pursuits, I enjoy <span className="font-semibold">running</span>,
+          exploring <span className="font-semibold">new foods</span>, and watching <span className="font-semibold">K-dramas</span>.
+        </p>
       </div>
 
       <div className="py-10 flex flex-col">

@@ -4,53 +4,37 @@ import {
     contact,
     css,
     estate,
-    express,
-    git,
     github,
     html,
+    java,
     javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
+    restapi,
     snapgram,
     summiz,
-    tailwindcss,
     threads,
-    typescript
+    typescript,
+    python,
+    vite,
+    openapis,
+    springboot,
+    flask
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: python,
+        name: "Python",
         type: "Backend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     },
     {
         imageUrl: javascript,
@@ -58,23 +42,18 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: typescript,
+        name: "TypeScript",
         type: "Frontend",
     },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
     },
     {
@@ -88,26 +67,37 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: vite,
+        name: "Vite",
+        type: "Frontend",
+    },
+    {
         imageUrl: redux,
         name: "Redux",
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: restapi,
+        name: "REST API",
+        type: "API",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+        imageUrl: openapis,
+        name: "OpenAPI",
+        type: "API",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
+        imageUrl: springboot,
+        name: "Spring Boot",
+        type: "Backend",
+    },
+    {
+        imageUrl: flask,
+        name: "Flask",
+        type: "Backend",
     }
 ];
+
 
 export const experiences = [
     {

@@ -53,7 +53,12 @@ const renderContent = {
   ),
   4: (
     <InfoBox
-      text="Feel free to reach out if you have any ❓ questions, 💬 comments, or 🧐 concerns"
+    text={
+        <>
+          Feel free to reach out if you have any ❓ questions, 
+          <br />💬 comments, or 🧐 concerns
+        </>
+      }
       link="mailto:jordjkim@gmail.com"
       btnText="Let's talk"
     />
