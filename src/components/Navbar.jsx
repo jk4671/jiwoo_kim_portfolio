@@ -81,7 +81,7 @@ const Navbar = () => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.85, ease: "easeOut" }}
-            className="fixed top-0 right-0 w-3/4 h-full bg-white shadow-lg flex flex-col items-center justify-center"
+            className="fixed top-0 right-0 w-2/4 h-full bg-white shadow-lg flex flex-col items-center justify-center"
           >
             <HiX onClick={() => setToggle(false)} className="absolute top-4 right-4 text-2xl cursor-pointer" />
 

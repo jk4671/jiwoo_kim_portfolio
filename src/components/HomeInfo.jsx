@@ -1,53 +1,67 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { arrow } from '../assets/icons';
+import React from "react";
+import { Link } from "react-router-dom";
+import { arrow } from "../assets/icons";
 
 const InfoBox = ({ text, link, btnText }) => (
-    <div className='info-box'>
-        <p className='font-medium sm:text-xl text-center'>{ text }</p>
-        <Link to={ link } className='neo-brutalism-white neo-btn'>
-            { btnText }
-            <img src={ arrow} className='w-4 h-4 object-contain'/>
-        </Link>
-    </div>
-)
+  <div className="info-box">
+    <p className="font-medium sm:text-xl text-center">{text}</p>
+    <Link to={link} className="neo-brutalism-white neo-btn">
+      {btnText}
+      <img src={arrow} className="w-4 h-4 object-contain" />
+    </Link>
+  </div>
+);
 
 const renderContent = {
-    1: (
-        <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Jiwoo</span>
-        👋
-        <br />
-        a CS major at Columbia University 🐻
-      </h1>
-
-    ),
-    2: (
-        <InfoBox 
-            text="Worked with many companies and picked up many skills along the way"
-            link='/about'
-            btnText="Learn more"
-        />
-    ),
-    3: (
-        <InfoBox 
-            text="Led multiple projects to success over the years. Curious about the impact?"
-            link='/projects'
-            btnText="Visit my portfolio"
-        />
-    ),
-    4: (
-        <InfoBox 
-            text="Need a project done or looking for a dev? I'm just a few keystrokes away"
-            link='/contact'
-            btnText="Let's talk"
-        />
-    ),
-}
+  1: (
+    <div className="info-box">
+      <p className="font-medium sm:text-xl text-center">
+        Hi 👋 I'm
+        <span className="font-semibold mx-2 text-white">Jiwoo,</span>
+        <br />a CS major at Columbia University 🐻
+      </p>
+      <Link className="neo-brutalism-white neo-btn">Rotate the island</Link>
+    </div>
+  ),
+  2: (
+    <InfoBox
+      text={
+        <>
+          I have experience in 🖥️ full-stack development, 🤖 AI, and
+          <br />
+          👩‍💻 human-computer interaction (HCI)
+        </>
+      }
+      link="/about"
+      btnText="Learn more"
+    />
+  ),
+  3: (
+    <InfoBox
+      text={
+        <>
+          I’ve worked on projects ranging from building
+          <br />
+          🖱️ interactive web applications to
+          <br />
+          🖼️ AI models for medical imaging
+        </>
+      }
+      link="/projects"
+      btnText="Visit my portfolio"
+    />
+  ),
+  4: (
+    <InfoBox
+      text="Feel free to reach out if you have any ❓ questions, 💬 comments, or 🧐 concerns"
+      link="mailto:jordjkim@gmail.com"
+      btnText="Let's talk"
+    />
+  ),
+};
 
 const HomeInfo = ({ currentStage }) => {
-    return renderContent[currentStage] || null;
-}
+  return renderContent[currentStage] || null;
+};
 
-export default HomeInfo
+export default HomeInfo;
