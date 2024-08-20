@@ -2,14 +2,19 @@ import { Link } from "react-router-dom";
 
 const CTA = () => {
   return (
-    <section className='cta'>
-      <p className='cta-text'>
-        Interested in working together? <br className='sm:block hidden' />
+    <section className="cta">
+      <p className="cta-text">
+        Interested in working together? <br className="sm:block hidden" />
         Get in contact!
       </p>
-      <Link to='/contact' className='btn'>
+      <a
+        className="btn"
+        href="mailto:jordjkim@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Contact
-      </Link>
+      </a>
     </section>
   );
 };

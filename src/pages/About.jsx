@@ -37,8 +37,10 @@ const About = () => {
           (HCI).
         </p>
         <p>
-          Beyond my academic and professional pursuits, I enjoy <span className="font-semibold">running</span>,
-          exploring <span className="font-semibold">new foods</span>, and watching <span className="font-semibold">K-dramas</span>.
+          Beyond my academic and professional pursuits, I enjoy{" "}
+          <span className="font-semibold">running</span>, exploring{" "}
+          <span className="font-semibold">new foods</span>, and watching{" "}
+          <span className="font-semibold">K-dramas</span>.
         </p>
       </div>
 
@@ -68,11 +70,41 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience.</h3>
+        <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I’ve worked in various fields of computer science, including AI,
-            HCI, and full-stack development. Here’s the rundown:
+            In <span className="font-semibold">full-stack development</span>,
+            I've worked as a Software Engineering Intern at Kohl’s Technology,
+            where I designed REST API endpoints and used them to create frontend
+            applications.
+          </p>
+
+          <p>
+            My experience in <span className="font-semibold">AI</span> includes
+            research roles at Northwestern Medicine and Mayo Clinic where I
+            worked on cutting-edge{" "}
+            <a
+              href="https://dl.acm.org/doi/full/10.1145/3613904.3642278"
+              target="_blank"
+              className="text-blue-600 underline hover:text-blue-800 visited:text-purple-600"
+            >
+              medical imaging
+            </a>{" "}
+            AI projects.
+          </p>
+
+          <p>
+            In the realm of <span className="font-semibold">HCI</span>, I’ve
+            developed platforms that enhance user interaction and experience,
+            such as{" "}
+            <a
+              href="https://dl.acm.org/doi/full/10.1145/3613904.3642278"
+              target="_blank"
+              className="text-blue-600 underline hover:text-blue-800 visited:text-purple-600"
+            >
+              Wikibench
+            </a>
+            , which leverages user-generated content to improve AI systems.
           </p>
         </div>
 
