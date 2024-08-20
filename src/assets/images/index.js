@@ -4,6 +4,12 @@ import kohls from './kohls.png'
 import cmu from './cmu.png'
 import nmed from './nmed.png'
 import mayoclinic from './mayoclinic.png'
+import mugmastery from './mugmastery.png'
+import bigapplescreenings from './bigapplescreenings.png'
+import notegenie from './notegenie.png'
+import savethecity from './savethecity.png'
+import wikibench from './wikibench.jpg'
+import silver from './silver.jpg'
 
 export {
     hero,
@@ -11,5 +17,11 @@ export {
     kohls,
     cmu,
     nmed,
-    mayoclinic
+    mayoclinic,
+    mugmastery,
+    bigapplescreenings,
+    notegenie,
+    savethecity,
+    wikibench,
+    silver
 }

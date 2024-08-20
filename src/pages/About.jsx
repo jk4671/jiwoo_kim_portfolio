@@ -86,7 +86,7 @@ const About = () => {
             <a
               href="https://dl.acm.org/doi/full/10.1145/3613904.3642278"
               target="_blank"
-              className="text-blue-600 underline hover:text-blue-800 visited:text-purple-600"
+              className="text-blue-500 underline hover:text-blue-700 visited:text-blue-500"
             >
               medical imaging
             </a>{" "}
@@ -100,7 +100,7 @@ const About = () => {
             <a
               href="https://dl.acm.org/doi/full/10.1145/3613904.3642278"
               target="_blank"
-              className="text-blue-600 underline hover:text-blue-800 visited:text-purple-600"
+              className="text-blue-500 underline hover:text-blue-700 visited:text-blue-500"
             >
               Wikibench
             </a>

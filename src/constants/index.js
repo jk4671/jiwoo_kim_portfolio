@@ -1,4 +1,15 @@
-import { kohls, cmu, nmed, mayoclinic } from "../assets/images";
+import {
+  kohls,
+  cmu,
+  nmed,
+  mayoclinic,
+  mugmastery,
+  bigapplescreenings,
+  notegenie,
+  savethecity,
+  wikibench,
+  silver,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -164,50 +175,117 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    projectImg: mugmastery,
+    theme: "mug-mastery",
+    name: "Mug Mastery",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Engineered an interactive platform to teach users about 8 coffee drinks with video tutorials, drag-and-drop interactions, and quizzes. Personalized feedback and scalable for future drinks.",
+    link: "https://github.com/jk4671/Learn-How-to-Distinguish-Coffee-Drinks-",
+    demoLink: "https://www.youtube.com/watch?v=ejwLcEUHmGw",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    iconUrl: pricewise,
+    projectImg: bigapplescreenings,
+    theme: "bigg-apple-screenings",
+    name: "Big Apple Screenings",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Devised a dynamic website to catalog NYC films, allowing user-driven data entry with validation and requirement checking. Incorporated feedback from 411 users to enhance functionality.",
+    link: "https://github.com/jk4671/Movies-Filmed-in-New-York-City/tree/main",
+    demoLink: "https://youtu.be/eKYVQOK_pGI?si=-E7OLYJJuo8Cvtsl",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
+    iconUrl: pricewise,
+    projectImg: notegenie,
+    theme: "note-genie",
+    name: "NoteGenie",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Built a full-stack MERN app for note creation, editing, and deletion with real-time synchronization. Supports extensive notes and collaborative features with real-time updates.",
+    link: "https://github.com/jk4671/fullstack_final_frontend",
+    demoLink: "https://www.youtube.com/watch?v=dvWX_CMpISg",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    iconUrl: pricewise,
+    projectImg: savethecity,
+    theme: "save-the-city",
+    name: "Save the City",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "The goal of the project was to incorporate newly learned concepts about callbacks, timer events, keyboard buttons, collision detection, inheritance, classes, and class global variables to design my own interactive video game using the Turtle module and various shapes and scenes drawn using L-system strings.",
+    link: "https://github.com/jk4671/save-the-city",
+    demoLink: "https://www.youtube.com/watch?v=jydmbxwM8mU",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
 ];
+
+export const publications = [
+  {
+    name: 'Wikibench: Community-Driven Data Curation for AI Evaluation on Wikipedia',
+    img: wikibench,
+    year: '2024',
+    journal: 'Proceedings of the CHI Conference on Human Factors in Computing Systems',
+    authors: 'Kuo, Tzu-Sheng, Aaron Halfaker, Zirui Cheng, Jiwoo Kim, Meng-Hsin Wu, Tongshuang Wu, Kenneth Holstein, and Haiyi Zhu',
+    link: 'https://dl.acm.org/doi/full/10.1145/3613904.3642278'
+  },
+  {
+    name: 'Deep Learning–Based Image Noise Quantification Framework for Computed Tomography',
+    img: silver,
+    year: '2023',
+    journal: 'Journal of Computer Assisted Tomography',
+    authors: 'Huber, Nathan R., Jiwoo Kim, Shuai Leng, Cynthia H. McCollough, and Lifeng Yu',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/37380148/'
+  },
+]

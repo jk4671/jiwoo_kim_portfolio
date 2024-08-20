@@ -26,12 +26,21 @@ const ProjectDisplay2D = () => {
             <p className="mt-2 text-slate-500">{project.description}</p>
             <div className="mt-5 flex items-center gap-2 font-poppins">
               <Link
+                to={project.demoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-blue-600"
+              >
+                Demo Link
+              </Link>
+              <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+              <Link
                 to={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-blue-600"
               >
-                Live Link
+                GitHub Link
               </Link>
               <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
             </div>
