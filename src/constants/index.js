@@ -11,29 +11,27 @@ import {
   silver,
 } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   github,
   html,
   java,
   javascript,
   linkedin,
   nodejs,
-  pricewise,
   react,
   redux,
   restapi,
-  snapgram,
-  summiz,
-  threads,
   typescript,
   python,
   vite,
   openapis,
   springboot,
   flask,
+  coffee,
+  movie,
+  note,
+  bomb,
 } from "../assets/icons";
 
 export const skills = [
@@ -174,7 +172,7 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: coffee,
     projectImg: mugmastery,
     theme: "mug-mastery",
     name: "Mug Mastery",
@@ -184,21 +182,33 @@ export const projects = [
     demoLink: "https://www.youtube.com/watch?v=ejwLcEUHmGw",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "yellow-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "css",
+        color: "navy-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "maroon-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "dark-green-text-gradient ",
+      },
+      {
+        name: "jquery",
+        color: "light-brown-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "red-violet-text-gradient",
       },
     ],
   },
   {
-    iconUrl: pricewise,
+    iconUrl: movie,
     projectImg: bigapplescreenings,
     theme: "bigg-apple-screenings",
     name: "Big Apple Screenings",
@@ -208,21 +218,33 @@ export const projects = [
     demoLink: "https://youtu.be/eKYVQOK_pGI?si=-E7OLYJJuo8Cvtsl",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "yellow-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "css",
+        color: "navy-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "maroon-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "dark-green-text-gradient ",
+      },
+      {
+        name: "jquery",
+        color: "light-brown-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "red-violet-text-gradient",
       },
     ],
   },
   {
-    iconUrl: pricewise,
+    iconUrl: note,
     projectImg: notegenie,
     theme: "note-genie",
     name: "NoteGenie",
@@ -231,22 +253,26 @@ export const projects = [
     link: "https://github.com/jk4671/fullstack_final_frontend",
     demoLink: "https://www.youtube.com/watch?v=dvWX_CMpISg",
     tags: [
+            {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "express",
+        color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "node",
+        color: "orange-text-gradient",
       },
     ],
   },
   {
-    iconUrl: pricewise,
+    iconUrl: bomb,
     projectImg: savethecity,
     theme: "save-the-city",
     name: "Save the City",
@@ -256,16 +282,8 @@ export const projects = [
     demoLink: "https://www.youtube.com/watch?v=jydmbxwM8mU",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "python",
+        color: "purple-text-gradient",
       },
     ],
   },
